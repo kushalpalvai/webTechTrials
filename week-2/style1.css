@@ -1,0 +1,33 @@
+ h1 {
+    background-color:orange;
+    text-align:center;
+    color:red;
+     }
+ h2 {
+    background-color:orange;
+    text-align:center;
+    color:red;
+     }
+ .style1 {
+    color: blue;
+    line-height:1.5cm;
+    font-size:20px;
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+    margin:20px;
+    }
+  .imstyle{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border: black 2px solid;
+    } 
+ #firstid{
+  color:white;
+ }
+ p {
+ background-color:lightblue;
+ padding:30px;
+  }
+ 
