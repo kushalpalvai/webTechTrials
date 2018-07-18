@@ -1,0 +1,45 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles1.css" type="text/css">
+</head>
+<body>
+ <div id="left">
+  <p>This is<b> first paragraph in</b> left</p>
+  <p>this is the second paragraph in left</p>
+  </div>
+<div id="center">
+  <ul>
+  <li>first </li>
+  <li>second </li>
+  <li>third </li>
+  </ul>
+  </div>
+ <div id="right">
+  <p>This is first paragraph in right</p>
+  <p>this is the second paragraph in right</p>
+  </div>
+<div id="test">
+<button>ckick here!</button>
+</div>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<script>
+ $("document").ready(function(){
+ //$("#right,#left").hide();
+  $("button").click(function(){
+  //$("#left").hide();
+  //$("div:first").hide();
+ $("div:not(:last)").hide();
+  //$("div:even").hide();
+ // $("div:contains('left')").hide();
+  //$("p:has(b)").hide();
+// $("ul li:nth-child(2)").hide();
+ });
+
+
+ });
+</script>
+</body>
+</html>
